@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>قائمة الطعام - ملوك صنعاء</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="bg-dark text-white py-3 sticky-top">
+        <div class="container d-flex justify-content-between align-items-center">
+            <h1 class="h3 m-0 text-warning"><i class="fa-solid fa-utensils"></i> ملوك صنعاء</h1>
+            <nav>
+                <ul class="nav">
+                    <li class="nav-item"><a class="nav-link text-white" href="index.html">الرئيسية</a></li>
+                    <li class="nav-item"><a class="nav-link text-warning fw-bold" href="menu.html">قائمة الطعام</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="about.html">من نحن</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="register.html">حساب جديد</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="contact.html">تواصل معنا</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="container py-5">
+        <h2 class="text-center mb-5 border-bottom border-warning pb-2 d-inline-block mx-auto">قائمة الأطباق الملكية</h2>
+        <div class="row g-4">
+            <!-- جدول أو عناصر قائمة الطعام باستخدام Grid -->
+            <div class="col-md-4">
+                <div class="card shadow-sm">
+                    <!-- مكان صورة الطبق في مجلد images -->
+                    <img src="images/dish1.jpg" class="card-img-top" alt="سلتة" style="height: 200px; object-fit: cover;">
+                    <div class="card-body">
+                        <h5 class="card-title">سلتة فخار لحم</h5>
+                        <p class="card-text text-muted">تُقدم ساخنة مع الحلبة والخبز الحجري الطازج.</p>
+                        <span class="text-warning fw-bold">4000 ريال</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card shadow-sm">
+                    <img src="images/dish2.jpg" class="card-img-top" alt="فحسة" style="height: 200px; object-fit: cover;">
+                    <div class="card-body">
+                        <h5 class="card-title">فحسة ملكية</h5>
+                        <p class="card-text text-muted">قطع اللحم المتبلة بعناية والمرقة الغنية.</p>
+                        <span class="text-warning fw-bold">5000 ريال</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card shadow-sm">
+                    <img src="images/dish3.jpg" class="card-img-top" alt="مندي" style="height: 200px; object-fit: cover;">
+                    <div class="card-body">
+                        <h5 class="card-title">مندي لحم بلدي</h5>
+                        <p class="card-text text-muted">أرز بسمتي مع لحم مطهو بالفرن بطعم استثنائي.</p>
+                        <span class="text-warning fw-bold">7000 ريال</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card shadow-sm">
+                    <img src="images/dish4.jpg" class="card-img-top" alt="عصاير" style="height: 200px; object-fit: cover;">
+                    <div class="card-body">
+                        <h5 class="card-title">  عصاير بجميع النكهات</h5>
+                        <p class="card-text text-muted">عصاير طبيعية طازجة بطعم استثنائي.</p>
+                        <span class="text-warning fw-bold">500 ريال</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card shadow-sm">
+                    <img src="images/dish5.jpg" class="card-img-top" alt="برست" style="height: 200px; object-fit: cover;">
+                    <div class="card-body">
+                        <h5 class="card-title">  برست مع التوابع  </h5>
+                        <p class="card-text text-muted">برست وشبس ومع المتبلات طازجة بطعم استثنائي.</p>
+                        <span class="text-warning fw-bold">2500 ريال</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card shadow-sm">
+                    <img src="images/dish6.jpg" class="card-img-top" alt="بقلاوة " style="height: 200px; object-fit: cover;">
+                    <div class="card-body">
+                        <h5 class="card-title">   بقلاوة بالقشطة والعسل  </h5>
+                        <p class="card-text text-muted">قطعة بقلاوة تركية محشية بقشطة,مغطاة بالمكسرات .</p>
+                        <span class="text-warning fw-bold">300 ريال</span>
+                    </div>
+                </div>
+            </div>
+            
+
+        </div>
+    </section>
+
+    <footer class="bg-dark text-white text-center py-4 mt-5">
+        <p class="mb-0">جميع الحقوق محفوظة &copy; 2026 - مطاعم ملوك صنعاء</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
